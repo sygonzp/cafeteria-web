@@ -9,9 +9,9 @@ Construir y publicar un sitio web responsivo utilizando HTML5 semántico y CSS m
 * GitHub Pages para el despliegue
 
 ## Capturas de Pantalla
-![Vista Escritorio](enlace-a-tu-imagen-escritorio.png)
-![Vista Móvil](enlace-a-tu-imagen-movil.png)
+![Vista Escritorio](vista computadora.png)
+![Vista Móvil](vista celular.png)
 
 ## Resultados de Validación W3C
-* **HTML:** (Inserta aquí captura de pantalla o texto confirmando que pasó el W3C Markup Validator sin errores)
-* **CSS:** (Inserta aquí captura de pantalla o texto confirmando que pasó el W3C CSS Validator sin errores)
+* **HTML:** 
+* **CSS:** 
