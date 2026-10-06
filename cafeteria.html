@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Cafetería Aroma, un espacio para disfrutar café y alimentos de calidad.">
+    <title>Cafetería Aroma</title>
+
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+
+    <header>
+        <nav aria-label="Navegación principal">
+            <h1>Cafetería Aroma</h1>
+
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#productos">Productos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <section id="inicio">
+            <div>
+                <h2>Bienvenido a Cafetería Aroma</h2>
+
+                <p>
+                    Un espacio agradable para disfrutar un buen café,
+                    acompañarlo con algo delicioso y pasar un momento
+                    tranquilo.
+                </p>
+
+                <a href="#productos">Conoce nuestros productos</a>
+            </div>
+
+            <img
+                src="https://images.unsplash.com/photo-1509042239860-f550ce710b93"
+                alt="Taza de café sobre una mesa">
+        </section>
+
+
+        <section id="productos">
+
+            <h2>Nuestros productos</h2>
+
+            <div class="productos">
+
+                <article>
+                    <h3>Café americano</h3>
+                    <p>
+                        Café preparado con granos seleccionados,
+                        ideal para comenzar el día.
+                    </p>
+                    <p><strong>$45</strong></p>
+                </article>
+
+                <article>
+                    <h3>Capuchino</h3>
+                    <p>
+                        Café espresso acompañado de leche espumosa
+                        y un toque especial de canela.
+                    </p>
+                    <p><strong>$55</strong></p>
+                </article>
+
+                <article>
+                    <h3>Pastel de chocolate</h3>
+                    <p>
+                        Una rebanada de pastel de chocolate para
+                        acompañar tu bebida favorita.
+                    </p>
+                    <p><strong>$60</strong></p>
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <section id="contacto">
+
+            <h2>Contacto</h2>
+
+            <p>
+                ¿Tienes alguna pregunta? Envíanos un mensaje.
+            </p>
+
+            <form>
+
+                <div>
+                    <label for="nombre">Nombre:</label>
+                    <input
+                        type="text"
+                        id="nombre"
+                        name="nombre"
+                        required>
+                </div>
+
+                <div>
+                    <label for="correo">Correo electrónico:</label>
+                    <input
+                        type="email"
+                        id="correo"
+                        name="correo"
+                        required>
+                </div>
+
+                <div>
+                    <label for="mensaje">Mensaje:</label>
+                    <textarea
+                        id="mensaje"
+                        name="mensaje"
+                        rows="5"
+                        required></textarea>
+                </div>
+
+                <button type="submit">Enviar mensaje</button>
+
+            </form>
+
+        </section>
+
+    </main>
+
+
+    <footer>
+        <p>&copy; 2026 Cafetería Aroma. Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>
